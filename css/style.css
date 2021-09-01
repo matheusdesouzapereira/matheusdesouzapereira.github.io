@@ -483,5 +483,11 @@ nav .whatsapp:hover{
     #rodape .linkPortfolio{
         font-size: 12px;
     }
+    #conhecimento img{
+        margin-bottom: 5px !important;
+    }
+    #conhecimento .espacoParagrafo{
+        height: 150px !important;
+    }
 
 }
