@@ -443,7 +443,7 @@ nav .whatsapp:hover{
     }
     #umPoucoSobreMim{
         padding: 40px 10px 10px 10px;
-        height: 900px;
+        height: 800px;
     }
     #umPoucoSobreMim p{
         padding-left: 0px;
@@ -479,6 +479,9 @@ nav .whatsapp:hover{
     #match p{
         margin-bottom: 20px;
         padding: 0px;
+    }
+    #rodape .linkPortfolio{
+        font-size: 12px;
     }
 
 }
