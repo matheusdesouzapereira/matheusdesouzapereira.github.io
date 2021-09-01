@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="imagem/png" href="img/M-icone.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <title>Portfólio Matheus Pereira | Seja bem vindo!</title>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <!-- Logo -->
+        <img class="logo" src="img/nome-logo.jpg" alt="Matheus Pereira"><!-- Final Logo -->
+        <!-- Menu -->
+        <img id="botaoMenu" src="img/botao-menu.png" alt="Botão Menu" onclick="return menuMobile();">
+        <nav id="menu">
+            <ul class="lista">
+                <li class="itemLista"><a href="index.html">Início</a></li>
+                <li class="itemLista"><a href="file/Currículo Programador.docx.pdf" target="_blank">Currículo</a></li>
+                <li class="itemLista"><a href="https://github.com/matheusdesouzapereira" target="_blank">GitHub</a></li>
+                <li class="itemLista"><a href="#redesSociais">Contato</a></li>
+                <li class="itemWhatsapp"><a href="https://api.whatsapp.com/send?l=pt&phone=5511940492564" class="whatsapp" target="_blank">Whatsapp</a></li>
+                <li><img id="botaoMenuFechar" src="img/botao-menu-fechar.png" alt="Botão Menu" onclick="return menuMobileFechar();"></li>
+            </ul>
+        </nav><!-- Final do menu -->
+    </header><!-- Final header -->
+
+    <!-- Boas vindas | Título | Frase -->
+    <section id="boasVindas">
+        <h1>Designer, Front-end Developer & Teacher</h1>
+        <p>Sou um desenvolvedor em constante aprendizado, dedicado, autodidata e apaixonado por programação desde 2009, quando fiz minha primeira linha de código. Professor desde 2013, certificado pela Microsoft e apaixonado por tecnologia.</p>
+        <a href="#umPoucoSobreMim" class="meConheca">Me conheça melhor</a>
+        <img src="img/coisas-de-programador.JPG" class="imagemProgramacao" alt="Coisas de programação">
+    </section>
+    <!-- Final boas vindas -->
+    
+    <!-- Um pouco sobre mim -->
+    <section id="umPoucoSobreMim">
+        <h2>Hi, I’m Matheus. Nice to meet you.</h2>
+        <p>Desde quando comecei minha jornada na área da informática, tenho me aperfeiçoado em tecnologias que gosto. Comecei com informática básica, lecionei em escolas profissionalizantes como: Microlins, Eurodata, People, Fisk e Microcamp. Estudei informática avançada e obtive o MOS (Microsoft Office Specialist), e me tornei professor certificador na unidade Microlins Taboão. Como Designer, trabalhei com a criação de identidades visuais, propaganda, mídias sociais e impressos gráficos. Me formei em Análise e Desenvolvimento de Sistemas e uni o que sabia de design com o front-end para criar sites e front de sistemas. Hoje estudo com afinco para me tornar um programador FullStack.</p>
+    </section>
+    <!-- Final um pouco sobre mim -->
+
+    <!-- Desgin | Front | Teacher -->
+    <section id="conhecimento">
+        <div class="boxConhecimento">
+            <img src="img/icone-design.JPG" alt="Icone Design">
+            <h2>Designer</h2>
+            <p>Gosto de criar artes do zero, ver como algo é feito, aprender e fazer a minha versão daquela ideia.</p>
+            <h3>Artes que gosto de criar:</h3>
+            <p>Logos, Cartões de visita, catálogos, banners, panfletos, adesivos e criativos.</p>
+            <h3>Ferramentas que utilizo:</h3>
+            <ul>
+                <li>- Photoshop</li>
+                <li>- Illustrator</li>
+                <li>- CorelDraw</li>
+            </ul>
+        </div>
+        <div class="boxConhecimento bordaConhecimento">
+            <img src="img/icone-front-end.JPG" alt="Icone Front-end">
+            <h2>Front-End Developer</h2>
+            <p>É a parte que eu mais gosto de atuar. Sou apaixonado pelos códigos e como comandos viram elementos visuais.</p>
+            <h3>Linguagens e tecnologias:</h3>
+            <p>HTML5, CSS3, Javascript, SQL, PHP, Wordpress, Bootstrap, Git, GitHub.</p>
+            <h3>Ferramentas que utilizo:</h3>
+            <ul>
+                <li>- Visual Studio Code</li>
+                <li>- Sublime Text</li>
+                <li>- Xampp</li>
+                <li>- Terminal</li>
+                <li>- Fonts Ninja</li>
+                <li>- ColorZilla</li>
+            </ul>
+        </div>
+        <div class="boxConhecimento">
+            <img src="img/icone-teacher.JPG" alt="Icone Teacher">
+            <h2>Teacher</h2>
+            <p>É realmente maravilhosa a sensação de poder ensinar, ver alguém se desenvolver e conseguir ingressar no mercado de trabalho.</p>
+            <h3>Instituições profissionalizantes:</h3>
+            <p>Microlins, Fisk, Microcamp, Eurodata e People.</p>
+            <h3>O que leciono:</h3>
+            <ul>
+                <li>- Windows</li>
+                <li>- Word</li>
+                <li>- Power Point</li>
+                <li>- Excel do básico ao avançado</li>
+                <li>- Photoshop</li>
+                <li>- Illustrator</li>
+                <li>- HTML</li>
+                <li>- CSS</li>
+                <li>- Javascript</li>
+            </ul>
+        </div>
+    </section>
+    <!-- Final Design | Front | Teacher -->
+
+    <!-- Trabalhos recentes Desenvolvimento-->
+    <section id="trabalhosRecentes">
+        <h2>Alguns dos meus trabalhos recentes</h2>
+        <p>Aqui estão alguns projetos em que trabalhei recentemente.</p>
+        <div class="trabalhos">
+            <div class="linha">
+                <a href="bradesco-saude.html"><img src="img/projeto-badescosaude/bradesco-capa.jpg" alt="Projeto Bradesco Saúde"></a>
+                <a href="ees-sistemaseletricos.html"><img src="img/projeto-eessistemaseletricos/ees-capa.jpg" alt="Projeto EES Sistemas Elétricos"></a>
+                <a href="glasrefrigeracao.html"><img src="img/projeto-glas/glas-capa.jpg" alt="Projeto Glas Refrigeração"></a>
+                <a href="organizefacil.html"><img src="img/projeto-orgranizefacilbrasil/organize-capa.jpg" alt="Projeto Organize Fácil Brasil"></a>
+                <a href="unimedfortaleza.html"><img src="img/projeto-unimedfortaleza/unimed-capa.jpg" alt="Projeto Unimed Fortaleza"></a>
+            </div>
+            <div class="linha">
+                <a href="svpimentel.html"><img src="img/projeto-svpimentel/svpimentel-capa.jpg" alt="Projeto SVPimentel"></a>
+                <a href="pamperpet.html"><img src="img/projeto-pamperpet/pamperpet-capa.jpg" alt="Projeto Pamperpet"></a>
+                <a href="ricoss.html"><img src="img/projeto-ricoss/ricoss-capa.jpg" alt="Projeto Ricoss"></a>
+                <a href="gruporespect.html"><img src="img/projeto-gruporespect/respect-capa.jpg" alt="Projeto Grupo Respect"></a>
+            </div>
+        </div>
+    </section>
+    <!-- Final trabalhos recentes -->
+    
+    <!-- Trabalhos recentes Design-->
+    <!-- <section id="trabalhosRecentes" class="design">
+        <h2>Design Web & Gráfico</h2>
+        <div class="trabalhos">
+            <div class="linha">
+                <a href="artes.html"><img src="img/artes.jpg" alt="Projeto Bradesco Saúde"></a>
+            </div>
+        </div>
+    </section> -->
+    <!-- Final trabalhos recentes -->
+
+    <!-- Vamos trabalhar juntos -->
+    <section id="match">
+        <h2>MATCH!</h2>
+        <p>Vamos trabalhar juntos? Me chame para batermos um papo. Vou fazer o café...</p>
+        <h3>We can do everything together</h3>
+    </section>
+    <!-- Final Vamos Trabalhar juntos -->
+
+    <!-- Rodapé -->
+    <footer id="rodape">
+        <img src="img/Nome-logo-branco.png" alt="" class="primeiraImagem">
+        <h3>Vivendo, aprendendo e subindo de nível um dia de cada vez.</h3>
+        <div>
+            <ul id="redesSociais">
+                <h3>Entre em contato:</h3>
+                <li><a href="https://www.linkedin.com/in/matheus-pereira-9828586b/" target="_blank"><img src="img/linkedin-branco.svg" alt="Linkedin"></a></li>
+                <li><a href="https://github.com/matheusdesouzapereira" target="_blank"><img src="img/github-branco.svg" alt="GitHub"></a> </li>
+                <li><a href="https://api.whatsapp.com/send?l=pt&phone=5511940492564" target="_blank"><img src="img/whatsapp-branco.svg" alt="Whatsapp"></a></li>
+            </ul>
+        </div>
+        <p>Feito a mão por mim | Todos os direitos reservados | <a href="matheusdesouzapereira.github.io">matheusdesouzapereira.github.io</a></p>
+    </footer>
+    <!-- Final Rodapé -->
+
+    <!-- Incorporando JS -->
+    <script src="js/js.js"></script>
+</body>
+</html>
